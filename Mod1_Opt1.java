@@ -11,10 +11,10 @@ public class Mod1_Opt1 {
 		System.out.println("What is your first name?");
 		String firstName = scan.nextLine();
 		
-		System.out.println("What si your last name?");
+		System.out.println("What is your last name?");
 		String lastName = scan.nextLine();
 		
-		System.out.println("What is your street adress?");
+		System.out.println("What is your street address?");
 		String address = scan.nextLine();
 		
 		System.out.println("What city do you live in?");
@@ -24,6 +24,8 @@ public class Mod1_Opt1 {
 		int zip = scan.nextInt();
 		
 		System.out.println("The individual " + firstName + lastName + "\nwhose address is: " + address + "\ncity: " + city + "\nzip code: " + zip); 
+		
+		scan.close();
 		
 
 	}
