@@ -23,7 +23,7 @@ public class Mod1_Opt1 {
 		System.out.println("What is your zip code?");
 		int zip = scan.nextInt();
 		
-		System.out.println("The individual " + firstName + lastName + "\nwhose address is: " + address + "\ncity: " + city + "\nzip code: " + zip); 
+		System.out.println("The individual " + firstName + "" + lastName + "\nwhose address is: " + address + "\ncity: " + city + "\nzip code: " + zip); 
 		
 		scan.close();
 		
