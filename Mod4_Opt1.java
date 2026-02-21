@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Mod4_Opt1 {
 
 	public static void main(String[] args) {
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.print("enter in 5 numbers: ");
-		double value = scan.nextDouble();
+		double value = scan.nextDouble();//set value variable outside of loop to assign it to all other values
 		
 		int count = 1;
 		
@@ -19,12 +20,12 @@ public class Mod4_Opt1 {
 			System.out.print("enter in 5 numbers: ");
 			value = scan.nextDouble();
 			
-			total += value;
+			total += value;// gets total of all inputs
 			
-			if(value > max) {
+			if(value > max) {//gets maximum
 				max = value; 
 			}
-			if(value < min) {
+			if(value < min) {//gets minimum
 				min = value; 
 			}
 			count++;
@@ -32,8 +33,8 @@ public class Mod4_Opt1 {
 			
 		}
 		
-		double average = total / 5;
-		double interest = total * .20;
+		double average = total / 5;// gets average
+		double interest = total * .20;// gets the Interest on total at 20%
 		
 		System.out.println("total: " + total);
 		System.out.println("averge: " + average);
